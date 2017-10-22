@@ -1,0 +1,41 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-repeat: repeat-y;
+	background-size: 100% auto;
+	background-color: black;
+	font-family: fantasy;
+
+}
+h1 {
+	font-size: 80px;
+	padding: 20px;
+	padding-top: 130px;
+	margin: 20px;
+	text-align: center;	
+}
+#gameButton {
+	height: 50px;
+	width: 100px;
+	margin: 20px;
+	padding-top: 12px;
+/*	margin-left: 41.5%;*/
+}
+#game {
+	align-content: center;
+}
+.container1 {
+	background-color: rgba(128,128,128,0.5);
+	height: 100%;
+}
+.container2 {
+	align-content: center;
+	color: white;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#timer {
+	position: fixed;
+	top: 50px;
+	left: 100px;
+	font-size: 60px;
+}
